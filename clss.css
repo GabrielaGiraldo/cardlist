@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 1px solid #d6d6d8;
+}
+
+header img{
+    padding: 5px;
+}
+
+.main{
+    margin: 20px;
+    background-color: #ffff;
+}
+
+.clases{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.clase{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #c3c3c5;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.puntos{
+    margin: 10px;
+}
+
+.clase .nombre{  
+    margin: none;
+    width: auto;
+    height: 80px;
+    background-color: #4351c9;
+}
+
+.carpeta{
+    display: flex;
+    justify-items: right;
+    border-top: 1px solid #c3c3c5;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.carpeta img{
+    display: flex;
+    padding: 5px;
+}
